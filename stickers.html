@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- Including Jquery-->
+ <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+   
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+  background-color: #5dd4bc;
+}
+
+#myInput {
+  background-image: url('img/search.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  background-color: #68e9cf;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+  background-color: #399482;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+  color: #eff5f3
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #10715d;
+}
+</style>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-43780055-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-43780055-1');
+</script>
+
+</head>
+<body>
+
+<h2>BongStick Sticker List</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for sticker.." title="Type in a name">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">Sticker</th>
+    <th style="width:40%;">Sticker Pack</th>
+  </tr>
+</table>
+
+<script>
+$(document).ready(function () {
+    // Fetching data from json file
+    $.getJSON("contents.json", function (data) {
+        var sticker = '';
+        var loc = 0;
+        $.each(data, function (key, value) {
+          loc++;
+          if(loc == 3) {
+            $.each(value, function (key2, value2) {
+              console.log(value2.name);
+              $.each(value2.stickers, function (key3, value3) {
+                sticker += '<tr>';
+                sticker += '<td>' + value3.image_file.replace('.webp','') + '</td>';
+                sticker += '<td>' + value2.name + '</td>';
+                sticker += '</tr>';
+              });
+            });
+          }
+        });
+        console.log(sticker);
+        //Inserting rows in table
+        $('#myTable').append(sticker);
+    });
+});
+
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
+</body>
+</html>
