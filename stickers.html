@@ -1,123 +1,218 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
- <!-- Including Jquery-->
- <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
-   
-<style>
-* {
-  box-sizing: border-box;
-}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="BongStick - ">
+  <meta name="author" content="Shuvankar Sarkar">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/logo_middle_fill.png">
+  <title>BongStick - Bengali Sticker for Whatsapp</title>
+  <!-- Including Jquery-->
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
 
-body {
-  padding: 10px;
-  background-color: #5dd4bc;
-}
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      padding: 10px;
+      background-color: #5dd4bc;
+    }
+    
+    #myInput {
+      background-image: url('img/search.png');
+      background-position: 10px 10px;
+      background-repeat: no-repeat;
+      width: 100%;
+      font-size: 16px;
+      padding: 12px 20px 12px 40px;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+      background-color: #68e9cf;
+    }
+    
+    #myTable {
+      border-collapse: collapse;
+      width: 100%;
+      border: 1px solid #ddd;
+      font-size: 18px;
+      background-color: #399482;
+    }
+    
+    #myTable th, #myTable td {
+      text-align: left;
+      padding: 12px;
+      color: #eff5f3
+    }
+    
+    #myTable tr {
+      border-bottom: 1px solid #ddd;
+    }
+    
+    #myTable tr.header, #myTable tr:hover {
+      background-color: #10715d;
+    }
 
-#myInput {
-  background-image: url('img/search.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  width: 100%;
-  font-size: 16px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #ddd;
-  margin-bottom: 12px;
-  background-color: #68e9cf;
-}
+    #stickers {
+      padding-top: calc(3rem + 71px);
+      padding-bottom: 2rem;
+    }
+  </style>
 
-#myTable {
-  border-collapse: collapse;
-  width: 100%;
-  border: 1px solid #ddd;
-  font-size: 18px;
-  background-color: #399482;
-}
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-43780055-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-#myTable th, #myTable td {
-  text-align: left;
-  padding: 12px;
-  color: #eff5f3
-}
+    gtag('config', 'UA-43780055-1');
+  </script>
 
-#myTable tr {
-  border-bottom: 1px solid #ddd;
-}
+  <!-- Custom fonts for this theme -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
-#myTable tr.header, #myTable tr:hover {
-  background-color: #10715d;
-}
-</style>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-43780055-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-43780055-1');
-</script>
+  <!-- Theme CSS -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
 
 </head>
-<body>
 
-<h2>BongStick Sticker List</h2>
+<body id="page-top">
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for sticker.." title="Type in a name">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger" href="index.html">BongStick</a>
+    <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+  </nav>
 
-<table id="myTable">
-  <tr class="header">
-    <th style="width:60%;">Sticker</th>
-    <th style="width:40%;">Sticker Pack</th>
-  </tr>
-</table>
+  <section class="bg-primary text-center text-white" id="stickers">
+    <div class="container">
+      <h2>BongStick Sticker List</h2>
+    </div>
+  </section>
 
-<script>
-$(document).ready(function () {
-    // Fetching data from json file
-    $.getJSON("contents.json", function (data) {
-        var sticker = '';
-        var loc = 0;
-        $.each(data, function (key, value) {
-          loc++;
-          if(loc == 3) {
-            $.each(value, function (key2, value2) {
-              console.log(value2.name);
-              $.each(value2.stickers, function (key3, value3) {
-                sticker += '<tr>';
-                sticker += '<td>' + value3.image_file.replace('.webp','') + '</td>';
-                sticker += '<td>' + value2.name + '</td>';
-                sticker += '</tr>';
+  <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for sticker.." title="Type in a name">
+
+  <table id="myTable">
+    <tr class="header">
+      <th style="width:60%;">Sticker</th>
+      <th style="width:40%;">Sticker Pack</th>
+    </tr>
+  </table>
+
+  <script>
+  $(document).ready(function () {
+      // Fetching data from json file
+      $.getJSON("contents.json", function (data) {
+          var sticker = '';
+          var loc = 0;
+          $.each(data, function (key, value) {
+            loc++;
+            if(loc == 3) {
+              $.each(value, function (key2, value2) {
+                console.log(value2.name);
+                $.each(value2.stickers, function (key3, value3) {
+                  sticker += '<tr>';
+                  sticker += '<td>' + value3.image_file.replace('.webp','') + '</td>';
+                  sticker += '<td>' + value2.name + '</td>';
+                  sticker += '</tr>';
+                });
               });
-            });
-          }
-        });
-        console.log(sticker);
-        //Inserting rows in table
-        $('#myTable').append(sticker);
-    });
-});
+            }
+          });
+          console.log(sticker);
+          //Inserting rows in table
+          $('#myTable').append(sticker);
+      });
+  });
 
-function myFunction() {
-  var input, filter, table, tr, td, i, txtValue;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
-  tr = table.getElementsByTagName("tr");
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
-      txtValue = td.textContent || td.innerText;
-      if (txtValue.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
+  function myFunction() {
+    var input, filter, table, tr, td, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[0];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
       }
     }
   }
-}
-</script>
+  </script>
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+
+        <!-- Footer Social Icons -->
+        <div class="col-lg-6 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Around the Web</h4>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/bongstickapp" target="_blank">
+            <i class="fab fa-fw fa-facebook-f"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/bongstickapp" target="_blank">
+            <i class="fab fa-fw fa-twitter"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.instagram.com/bongstickapp/" target="_blank">
+            <i class="fab fa-fw fa-instagram"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://shuvankar.com/bongstick/" target="_blank">
+            <i class="fab fa-fw fa-dribbble"></i>
+          </a>
+        </div>
+
+        <!-- Footer About Text -->
+        <div class="col-lg-6">
+          <h4 class="text-uppercase mb-4">About Developer</h4>
+          <p class="lead mb-0"><a href="http://shuvankar.com" target="_blank">Shuvankar</a> is Bengali Software Engineer who loves programming.</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Copyright Section -->
+  <section class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>CopyRight BongStick 2023</small>
+    </div>
+  </section>
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
+
 </body>
 </html>
