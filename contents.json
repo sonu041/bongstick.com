@@ -2,15 +2,150 @@
   "android_play_store_link": "https://play.google.com/store/apps/details?id=com.shuvankar.wasticker",
   "ios_app_store_link": "",
   "sticker_packs": [
+
     {
-      "identifier": "1",
-      "name": "Bong Stick 1",
+      "identifier": "7",
+      "name": "Utsab",
       "publisher": "Shuvankar Sarkar",
-      "tray_image_file": "tray_bong_1.png",
-      "image_data_version":"2",
+      "tray_image_file": "tray_bong_festive.png",
+      "image_data_version":"7",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "29_romjan_mobarak.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "01_shuva_noboborsho_1432.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "02_b_shuva_poyla_boishakh.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "02_aagam_shuvo_noborsho.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "03_shuva_nababorsha.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "04_new_year_shuveccha.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "21_shuva_rakhi_purnima.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "19_shuva_janmastami.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "05_meri_christmas.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "06_shuvo_borodin.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "07_happy_republic_day.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "08_bochor_valo_katuk.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "09_shuvo_bibaho_barshiki.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "10_shuva_okkhoy_tritiya.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "11_shuva_rabindra_jayanti.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "12_onek_shuveccha_roilo.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "13_onek_shuveccha_o_valobasha.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "14_robi_thakur_loho_pronam.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "15_soshur_bari_jindabad.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "16_shuvo_jamai_shosthi.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "17_shuvo_rothjatra.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "18_eid_mobarok.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "20_shuva_idujjoha.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "22_shuva_jhulon_jatra.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "23_shuva_sadhinota_dibos.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "24_bonde_matarom.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "25_joy_hind.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "26_joy_ma_monosa.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "28_shuva_maharam.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "01_shuva_doljatra.webp",
+          "emojis": ["😄","😀"]
+        }
+      ]
+    },
+    {
+      "identifier": "1",
+      "name": "Din Hok Sundor",
+      "publisher": "Shuvankar Sarkar",
+      "tray_image_file": "tray_bong_1.png",
+      "image_data_version":"3",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -103,10 +238,6 @@
           "emojis": ["😄","😀"]
         },
         {
-          "image_file": "25_shuva_nababorsho.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
           "image_file": "26_ullash.webp",
           "emojis": ["😄","😀"]
         },
@@ -128,15 +259,16 @@
         }
       ]
     },
+
     {
       "identifier": "2",
-      "name": "Bong Stick 2",
+      "name": "Orokom Mone Hoy",
       "publisher": "Shuvankar Sarkar",
       "tray_image_file": "tray_bong_2.png",
       "image_data_version":"2",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -263,14 +395,45 @@
       ]
     },
     {
+      "identifier": "23",
+      "name": "Bichar",
+      "publisher": "Shuvankar Sarkar",
+      "tray_image_file": "justice_tray.png",
+      "image_data_version":"2",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://bongstick.com",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_rgkar.webp",
+          "emojis": ["\uD83D\uDE20","\uD83D\uDE20"]
+        },
+        {
+          "image_file": "02_bichar_chai.webp",
+          "emojis": ["\uD83D\uDE20","\uD83D\uDE20"]
+        },
+        {
+          "image_file": "03_nirapotta_kothay.webp",
+          "emojis": ["\uD83D\uDE20","\uD83D\uDE20"]
+        },
+        {
+          "image_file": "04_aar_kobe.webp",
+          "emojis": ["\uD83D\uDE20","\uD83D\uDE20"],
+          "accessibility_text": "আর কবে?"
+        }
+      ]
+    },
+    {
       "identifier": "3",
-      "name": "Bong Stick 3",
+      "name": "Ki Anondo",
       "publisher": "Shuvankar Sarkar",
       "tray_image_file": "tray_bong_3.png",
       "image_data_version":"1",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -398,13 +561,13 @@
     },
     {
       "identifier": "4",
-      "name": "Bong Stick Tui",
+      "name": "Chap Nisna",
       "publisher": "Shuvankar Sarkar",
       "tray_image_file": "tray_bong_4.png",
       "image_data_version":"2",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -516,13 +679,13 @@
     },
     {
       "identifier": "5",
-      "name": "Bong Stick Tumi",
+      "name": "Kemon Aacho",
       "publisher": "Shuvankar Sarkar",
       "tray_image_file": "tray_bong_5.png",
-      "image_data_version":"2",
+      "image_data_version":"3",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -590,13 +753,13 @@
     },
     {
       "identifier": "6",
-      "name": "Bong Stick Aapni",
+      "name": "Aapni Thakchen Sir",
       "publisher": "Shuvankar Sarkar",
       "tray_image_file": "tray_bong_6.png",
-      "image_data_version":"1",
+      "image_data_version":"2",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -647,148 +810,14 @@
       ]
     },
     {
-      "identifier": "7",
-      "name": "Bong Stick Festive",
-      "publisher": "Shuvankar Sarkar",
-      "tray_image_file": "tray_bong_festive.png",
-      "image_data_version":"3",
-      "avoid_cache":false,
-      "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
-      "privacy_policy_website": "",
-      "license_agreement_website": "",
-      "stickers": [
-        {
-          "image_file": "01_shuva_nabarsha_1429.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "02_b_shuva_poyla_boishakh.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "01_shuva_doljatra.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "02_aagam_shuvo_noborsho.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "03_shuva_nababorsha.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "04_new_year_shuveccha.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "05_meri_christmas.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "06_shuvo_borodin.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "07_happy_republic_day.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "08_bochor_valo_katuk.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "09_shuvo_bibaho_barshiki.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "10_shuva_okkhoy_tritiya.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "11_shuva_rabindra_jayanti.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "12_onek_shuveccha_roilo.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "13_onek_shuveccha_o_valobasha.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "14_robi_thakur_loho_pronam.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "15_soshur_bari_jindabad.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "16_shuvo_jamai_shosthi.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "17_shuvo_rothjatra.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "18_eid_mobarok.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "19_shuva_janmastami.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "20_shuva_idujjoha.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "21_shuva_rakhi_purnima.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "22_shuva_jhulon_jatra.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "23_shuva_sadhinota_dibos.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "24_bonde_matarom.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "25_joy_hind.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "26_joy_ma_monosa.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "27_ek_chobolei_chobi.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "28_shuva_maharam.webp",
-          "emojis": ["😄","😀"]
-        }
-      ]
-    },
-    {
       "identifier": "8",
-      "name": "Bong Stick Smiley",
+      "name": "Haso To Dekhi",
       "publisher": "Shuvankar Sarkar",
       "tray_image_file": "tray_bong_smiley.png",
       "image_data_version":"2",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -861,13 +890,13 @@
     },
     {
       "identifier": "9",
-      "name": "Bong Stick Romantic",
+      "name": "Romantic",
       "publisher": "Shuvankar Sarkar",
       "tray_image_file": "tray_bong_romance.png",
-      "image_data_version":"1",
+      "image_data_version":"2",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -995,13 +1024,13 @@
     },
     {
       "identifier": "10",
-      "name": "Bong Stick Potla",
+      "name": "Potla",
       "publisher": "Shuvankar Sarkar",
       "tray_image_file": "tray_bong_7.png",
-      "image_data_version":"1",
+      "image_data_version":"2",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -1129,13 +1158,13 @@
     },
     {
       "identifier": "11",
-      "name": "Bong Stick Bokhate",
+      "name": "Bokhate",
       "publisher": "Shuvankar Sarkar",
       "tray_image_file": "tray_bong_8.png",
-      "image_data_version":"4",
+      "image_data_version":"5",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -1222,96 +1251,14 @@
       ]
     },
     {
-      "identifier": "12",
-      "name": "Bong Stick Shuva",
-      "publisher": "Shuvankar Sarkar",
-      "tray_image_file": "tray_bong_9.png",
-      "image_data_version":"3",
-      "avoid_cache":false,
-      "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
-      "privacy_policy_website": "",
-      "license_agreement_website": "",
-      "stickers": [
-        {
-          "image_file": "01_supravat.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "02_shuva_dupur.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "03_shuva_bikel.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "04_shuvo_sandhya.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "05_shuva_ratri.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "06_shuva_modhyoratri.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "07_shuva_purnima.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "08_shuva_amabossya.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "09_shuva_borsha_dibos.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "10_shuva_nari_day.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "11_shuva_sombar.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "12_shuva_mangalbar.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "13_shuva_budhbar.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "14_shuva_brihaspati_bar.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "15_shuva_sukrabar.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "16_shuva_sanibar.webp",
-          "emojis": ["😄","😀"]
-        },
-        {
-          "image_file": "17_shuva_rabibar.webp",
-          "emojis": ["😄","😀"]
-        }
-      ]
-    },
-    {
       "identifier": "13",
-      "name": "Bong Stick Pujo",
+      "name": "Pujo",
       "publisher": "Shuvankar Sarkar",
       "tray_image_file": "tray_bong_13.png",
-      "image_data_version":"5",
+      "image_data_version":"6",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -1434,14 +1381,96 @@
       ]
     },
     {
-      "identifier": "14",
-      "name": "Bong Stick Info",
+      "identifier": "12",
+      "name": "Shuva",
       "publisher": "Shuvankar Sarkar",
-      "tray_image_file": "tray_bong_14.png",
-      "image_data_version":"2",
+      "tray_image_file": "tray_bong_9.png",
+      "image_data_version":"3",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_supravat.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "02_shuva_dupur.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "03_shuva_bikel.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "04_shuvo_sandhya.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "05_shuva_ratri.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "06_shuva_modhyoratri.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "07_shuva_purnima.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "08_shuva_amabossya.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "09_shuva_borsha_dibos.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "10_shuva_nari_day.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "11_shuva_sombar.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "12_shuva_mangalbar.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "13_shuva_budhbar.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "14_shuva_brihaspati_bar.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "15_shuva_sukrabar.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "16_shuva_sanibar.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "17_shuva_rabibar.webp",
+          "emojis": ["😄","😀"]
+        }
+      ]
+    },
+    {
+      "identifier": "14",
+      "name": "Khobor Aache",
+      "publisher": "Shuvankar Sarkar",
+      "tray_image_file": "tray_bong_14.png",
+      "image_data_version":"3",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -1477,13 +1506,13 @@
     },
     {
       "identifier": "15",
-      "name": "Bong Stick Weather",
+      "name": "Abohawa",
       "publisher": "Shuvankar Sarkar",
       "tray_image_file": "tray_bong_15.png",
-      "image_data_version":"1",
+      "image_data_version":"2",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -1535,13 +1564,13 @@
     },
     {
       "identifier": "16",
-      "name": "Bong Stick Basanta",
+      "name": "Basanta",
       "publisher": "Shuvankar Sarkar",
       "tray_image_file": "tray_bong_16.png",
-      "image_data_version":"1",
+      "image_data_version":"2",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -1629,13 +1658,13 @@
     },
     {
       "identifier": "17",
-      "name": "Bong Stick Covid19",
+      "name": "Covid19",
       "publisher": "Shuvankar Sarkar",
       "tray_image_file": "tray_bong_17.png",
-      "image_data_version":"3",
+      "image_data_version":"4",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -1727,13 +1756,13 @@
     },
     {
       "identifier": "18",
-      "name": "Bong Stick Dibos",
+      "name": "Dibos",
       "publisher": "Shuvankar Sarkar",
       "tray_image_file": "tray_bong_18.png",
-      "image_data_version":"3",
+      "image_data_version":"4",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -1761,13 +1790,13 @@
     },
     {
       "identifier": "19",
-      "name": "Bong Stick Kriya",
+      "name": "Kriya",
       "publisher": "Shuvankar Sarkar",
       "tray_image_file": "tray_bong_19.png",
-      "image_data_version":"1",
+      "image_data_version":"2",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -1777,6 +1806,10 @@
         },
         {
           "image_file": "02_kichuna.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "03_byasto_aachi.webp",
           "emojis": ["😄","😀"]
         },
         {
@@ -1830,18 +1863,56 @@
         {
           "image_file": "16_tv_dekhchi.webp",
           "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "17_officee_aachi.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "18_dutyte_aachi.webp",
+          "emojis": ["😄","😀"]
+        }
+      ]
+    },
+    {
+      "identifier": "21",
+      "name": "Voter Hawa",
+      "publisher": "Shuvankar Sarkar",
+      "tray_image_file": "tray_vote.png",
+      "image_data_version":"2",
+      "avoid_cache":false,
+      "publisher_email":"",
+      "publisher_website": "https://bongstick.com",
+      "privacy_policy_website": "",
+      "license_agreement_website": "",
+      "stickers": [
+        {
+          "image_file": "01_vote_tmc.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "02_vote_bjp.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "03_vote_cong.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "04_vote_cpm.webp",
+          "emojis": ["😄","😀"]
         }
       ]
     },
     {
       "identifier": "20",
-      "name": "Bong Stick Khilli",
+      "name": "Khilli",
       "publisher": "Shuvankar Sarkar",
       "tray_image_file": "tray_bong_20.png",
-      "image_data_version":"2",
+      "image_data_version":"3",
       "avoid_cache":false,
       "publisher_email":"",
-      "publisher_website": "http://shuvankar.com/bongstick",
+      "publisher_website": "https://bongstick.com",
       "privacy_policy_website": "",
       "license_agreement_website": "",
       "stickers": [
@@ -1955,6 +2026,10 @@
         },
         {
           "image_file": "28_kaacha_badam.webp",
+          "emojis": ["😄","😀"]
+        },
+        {
+          "image_file": "29_ki_kore.webp",
           "emojis": ["😄","😀"]
         }
       ]
